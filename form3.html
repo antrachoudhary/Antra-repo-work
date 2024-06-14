@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form 3</title>
+</head>
+<body>
+    
+    <form>
+        <!--label included to given as student information-->
+        <label for="name">Name</label><br>
+        <!--input with required field-->
+        <input type="text" name="Name id="name" required placeholder="Enter your name"><br>
+        <br>
+        <!--label for defining user information-->
+        <label id="Email" for="Email">Email</label><br>
+        <!--input with required field-->
+        <input type="email" name="Email" id="email" required placeholder="test@gmail.com"><br><br>
+        <!--label for defining user information-->
+        <label id="number_label" for="number">Roll No</label><br>
+        <!--input with required field-->
+        <input type="number" name="number" id="number_label" required placeholder="Roll" min="0" max="100"><br>
+        <br>
+         <!--label for defining user information-->
+         <label for="Drop down">How do you rate our course?</label><br>
+         <select name="Drop down" id="Drop down">
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Fair">Fair</option>
+            <option value="Poor">Poor</option>
+         </select>
+         <br><br>
+         <!--label for defining user information-->
+         <label for="checkbox">Your favorite topic in HTML</label><br>
+         <input type="checkbox" name="topic1"
+         value="structualelement">Structual Element<br>
+         <input type="checkbox" name="topic2"
+         value="Links and list">Links and list<br>
+         <input type="checkbox" name="topic1"
+         value="Mediatags">Media tags<br>
+         <input type="checkbox" name="topic1"
+         value="Tabletag">Table tag<br>
+         <input type="checkbox" name="topic1"
+         value="GroupingElements">Grouping Elements<br><br>
+         <label>Do you like the HTML course</label><br>
+         <input type="radio" name="course" value="Yes">Yes<br>
+         <input type="radio" name="course" value="No">No<br>
+         <br>
+         <label>Few words about course</label><br>
+         <!--text area-->
+         <textarea rows="5" cols="50" name="description" id="description"></textarea>
+         <br>
+         <br>
+         <button onclick="alert('validating')">submit</button>
+         
+
+
+
+    </form>
+
+</body>
+</html>
